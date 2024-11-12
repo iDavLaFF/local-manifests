@@ -8,6 +8,7 @@
     <linkfile src="q_repo_update.sh" dest="q_repo_update.sh" />
     <linkfile src="treble_repo_update.sh" dest="treble_repo_update.sh" />
 </project>
+<project path="device/sony/customization" name="device-sony-customization" groups="device" remote="iDavLaFF" revision="master" />
 <project path="device/sony/odm" name="device-sony-odm" groups="device" remote="ix5" revision="master" />
 <project path="device/sony/sepolicy-treble" name="device-sony-sepolicy-treble" groups="device" remote="ix5" revision="master" />
 <project path="vendor/ix5" name="vendor-ix5" remote="ix5" revision="master" />
