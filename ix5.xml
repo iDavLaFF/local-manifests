@@ -2,7 +2,6 @@
 <manifest>
 <remote name="ix5" fetch="https://git.ix5.org/felix/" />
 <remote name="github-blystad" fetch="https://github.com/Blystad/" />
-<remote name="github-chris" fetch="https://github.com/chris42" />
 
 <project path="vendor/oss/ix5_repo_update" name="ix5_repo_update" groups="device" remote="ix5" revision="master">
     <linkfile src="q_repo_update.sh" dest="q_repo_update.sh" />
@@ -14,5 +13,4 @@
 <project path="vendor/ix5-apps" name="vendor-ix5-apps" remote="ix5" revision="master" />
 <project path="vendor/oss/liblights" name="sony-liblights" remote="ix5" revision="lights-k4.9" />
 <project path="vendor/mozilla" name="aosp_vendor_mozilla" revision="master" remote="github-blystad" />
-<project path="vendor/chris-overlays" name="android_packages_overlays" revision="master" remote="github-chris" />
 </manifest>
