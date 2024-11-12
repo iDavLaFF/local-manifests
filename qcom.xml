@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="MarijnS95" fetch="https://github.com/MarijnS95/" />
 
 <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
 
