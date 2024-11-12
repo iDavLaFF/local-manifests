@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="sony" fetch="https://github.com/sonyxperiadev/" />
+<remote name="iDavLaFF" fetch="https://github.com/iDavLaFF/" />
 <project path="device/sony/sepolicy" name="device-sony-sepolicy" groups="device" remote="sony" revision="q-mr1" />
 <project path="device/sony/common" name="device-sony-common" groups="device" remote="sony" revision="q-mr1" />
 
 <!--msm8956-->
-<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="sony" revision="q-mr1" />
+<project path="device/sony/loire" name="device-sony-loire" groups="device" remote="iDavLaFF" revision="q-mr1" />
 <project path="device/sony/suzu" name="device-sony-suzu" groups="device" remote="sony" revision="q-mr1" />
 </manifest>
