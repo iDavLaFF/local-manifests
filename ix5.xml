@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote name="ix5" fetch="https://git.ix5.org/felix/" />
+<remote name="iDavLaFF" fetch="https://github.com/iDavLaFF/" />
 <remote name="github-blystad" fetch="https://github.com/Blystad/" />
 
-<project path="vendor/oss/ix5_repo_update" name="ix5_repo_update" groups="device" remote="ix5" revision="master">
+<project path="vendor/oss/ix5_repo_update" name="ix5_repo_update" groups="device" remote="iDavLaFF" revision="master">
     <linkfile src="q_repo_update.sh" dest="q_repo_update.sh" />
     <linkfile src="treble_repo_update.sh" dest="treble_repo_update.sh" />
 </project>
